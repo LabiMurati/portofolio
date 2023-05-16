@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-project-portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1",
+    "tailwindcss-owl": "^2.0.0"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "aos": "^2.3.4"
+  }
+}
