@@ -41,7 +41,7 @@ document.addEventListener("scroll", handleScroll);
 
 setTimeout(function () {
   document.querySelector(".preloader").style.display = "none";
-}, 1000);
+}, 0000);
 
 // particles js
 
